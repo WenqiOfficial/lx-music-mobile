@@ -12,10 +12,12 @@ const defaultSetting: LX.AppSetting = {
   'common.showBackBtn': false,
   'common.showExitBtn': true,
   'common.useSystemFileSelector': true,
+  'common.alwaysKeepStatusbarHeight': false,
 
   'player.startupAutoPlay': false,
+  'player.startupPushPlayDetailScreen': false,
   'player.togglePlayMethod': 'listLoop',
-  'player.isPlayHighQuality': false,
+  'player.playQuality': '128k',
   'player.isSavePlayTime': false,
   'player.volume': 1,
   'player.playbackRate': 1,
@@ -29,6 +31,7 @@ const defaultSetting: LX.AppSetting = {
   'player.isShowLyricRoma': false,
   'player.isShowNotificationImage': true,
   'player.isS2t': false,
+  'player.isShowBluetoothLyric': false,
 
   // 'playDetail.isZoomActiveLrc': false,
   // 'playDetail.isShowLyricProgressSetting': false,
